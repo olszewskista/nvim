@@ -3,7 +3,7 @@ return {
   config = function()
     vim.notify = require 'notify'
     vim.notify.setup {
-      merge_duplicates = false,
+      merge_duplicates = true,
       fps = 60,
     }
   end,
