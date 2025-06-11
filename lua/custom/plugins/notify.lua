@@ -7,11 +7,4 @@ return {
       fps = 60,
     }
   end,
-  keys = { {
-    '<leader>sa',
-    function()
-      require('telescope').extensions.notify.notify()
-    end,
-    desc = '[S]earch [A]lerts',
-  } },
 }
