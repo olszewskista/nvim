@@ -1012,6 +1012,8 @@ require('lazy').setup({
   },
 })
 
+vim.opt.termguicolors = true
+
 require 'custom.keymaps'
 require 'custom.opts'
 

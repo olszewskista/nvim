@@ -32,7 +32,5 @@ return {
       desc = 'Open mini.files (cwd)',
     },
   },
-  config = function()
-    require('mini.files').setup()
-  end,
+  config = true,
 }
